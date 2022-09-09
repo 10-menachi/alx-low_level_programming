@@ -14,8 +14,10 @@ int main(void)
 		{
 		}
 		else
+		{
 			putchar(low);
 			low++;
+		}
 	}
 	putchar(10);
 
