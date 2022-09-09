@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	for (int num = 0; num < 10; num++)
+	int num = 0;
+	while (num < 10)
 	{
 		printf("%i", num);
+		num++;
 	}
 	printf("\n");
 
