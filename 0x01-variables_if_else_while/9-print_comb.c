@@ -8,14 +8,21 @@ int main(void)
 {
 	int num = 48;
 
-	while (num <= 56)
+	while (num <= 57)
 	{
 		putchar(num);
-		putchar(44);
-		putchar(32);
-		num++;
+		if (num == 57)
+		{
+			break;
+		}
+		else
+		{
+			putchar(44);
+			putchar(32);
+			num++;
+		}
 	}
-	putchar(57);
+	putchar(10);
 
 	return (0);
 }
