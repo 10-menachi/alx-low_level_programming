@@ -10,14 +10,14 @@ int main(void)
 
 	while (low <= 'z')
 	{
-		if (low != 'e' || low != 'q')
+		if (low == 'e' || low == 'q')
 		{
-			putchar(low);
 			low++;
 		}
 		else
 		{
-			continue;
+			putchar(low);
+			low++;
 		}
 	}
 	putchar(10);
