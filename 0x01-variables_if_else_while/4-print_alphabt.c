@@ -12,10 +12,10 @@ int main(void)
 	{
 		if (low == 'e' || low == 'q')
 		{
-			continue;
 		}
-		putchar(low);
-		low++;
+		else
+			putchar(low);
+			low++;
 	}
 	putchar(10);
 
