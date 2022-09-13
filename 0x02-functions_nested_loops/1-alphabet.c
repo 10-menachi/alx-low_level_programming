@@ -1,5 +1,5 @@
 #include <stdio.h>
-void print_alphabet(void);
+#include "main.h"
 /**
  * main - Entry Point
  *
