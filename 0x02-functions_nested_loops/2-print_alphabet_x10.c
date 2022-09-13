@@ -1,16 +1,5 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: 0 (Always success)
- */
-int main(void)
-{
-	print_alphabet_x10();
-
-	return (0);
-}
-/**
  * print_alphabet_x10 - prints the alphabet 10 times
  *
  * Return: void (No return type)
