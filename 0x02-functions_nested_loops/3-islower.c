@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * _islower - Checks for a lowercase character
  * @c: the character to be checked
