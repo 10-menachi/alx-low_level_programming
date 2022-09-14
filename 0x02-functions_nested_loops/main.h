@@ -9,3 +9,4 @@ int print_last_digit(int n);
 int _abs(int);
 int print_sign(int n);
 int _isalpha(int n);
+int _putchar(int char);
