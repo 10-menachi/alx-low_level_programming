@@ -35,10 +35,9 @@ void times_table(void)
 				putchar(mtp + '0');
 				j++;
 			}
-			if (j != 9)
+			if (j <= 9)
 			{
 				putchar(',');
-				j++;
 			}
 		}
 		putchar('\n');
