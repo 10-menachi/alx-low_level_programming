@@ -21,7 +21,7 @@ void rev_string(char *s)
 	while (s > i)
 	{
 		s--;
-		*s = arr[c];
-		c++;
+		*s = arr[count];
+		count++;
 	}
 }
