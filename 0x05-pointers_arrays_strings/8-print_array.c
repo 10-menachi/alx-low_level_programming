@@ -23,7 +23,7 @@ void print_array(int *a, int n)
 			}
 			else
 			{
-				_putchar(a[i]);
+				printf("%i", a[i]);
 				i++;
 			}
 		}
