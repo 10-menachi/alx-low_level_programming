@@ -22,8 +22,11 @@ void print_array(int *a, int n)
 				continue;
 				i++;
 			}
-			printf(", ");
-			i++;
+			else
+			{
+				printf(", ");
+				i++;
+			}
 		}
 	}
 	printf("\n");
