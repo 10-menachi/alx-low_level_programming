@@ -23,3 +23,6 @@
 
 ## 7-puts_half.c
 #### prints half the characters of a string
+
+## 8-print_array.c
+#### prints n elements of an array of integers followed by a new line
