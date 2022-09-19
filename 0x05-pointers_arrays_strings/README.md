@@ -8,3 +8,6 @@
 
 ## 2-strlen.c
 #### finds the length of a given array
+
+## 3-puts.c
+#### prints a string to stdout followed by a new line
