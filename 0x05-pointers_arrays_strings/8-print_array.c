@@ -22,6 +22,10 @@ void print_array(int *a, int n)
 				continue;
 				i++;
 			}
+			else if (n == i)
+			{
+				continue;
+			}
 			else
 			{
 				printf(", ");
