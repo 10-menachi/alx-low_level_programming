@@ -8,7 +8,7 @@
  */
 void puts2(char *str)
 {
-	size_t len = sizeof(str);
+	int len = sizeof(str);
 	int i = 0;
 
 	while (i < len)
