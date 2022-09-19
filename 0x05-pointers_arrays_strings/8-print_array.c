@@ -16,16 +16,14 @@ void print_array(int *a, int n)
 
 		while (n > i)
 		{
-			if (i != n - 1)
+			printf("%d, ", a[i]);
+			if (i == n - 1)
 			{
-				printf("%d, ", a[i]);
-				i++;
+				continue;
 			}
-			else
-			{
-				printf("%d", a[i]);
-				i++;
-			}
+			printf(", ");
+			i++;
 		}
 	}
+	printf("\n");
 }
