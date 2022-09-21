@@ -3,3 +3,5 @@
 ## 0-strcat.c
 #### Concantenates two provided strings
 
+## 1-strncat.c
+#### Concantenates two strings
