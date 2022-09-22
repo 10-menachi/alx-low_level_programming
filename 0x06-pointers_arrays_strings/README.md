@@ -14,3 +14,6 @@
 
 ## 4-rev_array.c
 #### reverses the contents of an array
+
+## 5-string_toupper.c
+#### changes lowercase letters to uppercase letters
