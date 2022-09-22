@@ -20,3 +20,6 @@
 
 ## 6-cap_string.c
 #### capitalizes all words of a string
+
+## 7-leet.c
+#### encodes a string into 1337
