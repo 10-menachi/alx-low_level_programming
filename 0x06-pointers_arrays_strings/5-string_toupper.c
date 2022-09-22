@@ -2,7 +2,7 @@
 /**
  * string_toupper - changes lowercase characters
  * to uppercase characters
- * @ptr - pointer tio string
+ * @ptr: pointer tio string
  *
  * Return: the uppercase string
  */
