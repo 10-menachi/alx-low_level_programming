@@ -11,3 +11,6 @@
 
 ## 3-strcmp.c
 #### compares two strings
+
+## 4-rev_array.c
+#### reverses the contents of an array
