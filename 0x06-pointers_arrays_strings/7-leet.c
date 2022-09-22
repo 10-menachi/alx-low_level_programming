@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * leet - encodes a string into 1337 encoding
  * @str: pointer to the string
  *
  * Return: pointer to the string
  */
+
 char *leet(char *str)
 {
 	int strcnt;
