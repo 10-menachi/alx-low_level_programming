@@ -17,3 +17,6 @@
 
 ## 5-string_toupper.c
 #### changes lowercase letters to uppercase letters
+
+## 6-cap_string.c
+#### capitalizes all words of a string
