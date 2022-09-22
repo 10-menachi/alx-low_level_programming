@@ -1,10 +1,13 @@
 # 0X06 - Pointers, Arrays and Strings
 
 ## 0-strcat.c
-#### Concantenates two provided strings
+#### concantenates two provided strings
 
 ## 1-strncat.c
-#### Concantenates two strings
+#### concantenates two strings
 
 ## 2-strncpy.c
 #### copies a string
+
+## 3-strcmp.c
+#### compares two strings
