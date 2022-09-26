@@ -20,3 +20,6 @@
 
 ## 7-print_chessboard.c
 #### prints a chessboard
+
+## 8-print_diagsums.c
+#### prints two diagonals of a square matrix of integers
