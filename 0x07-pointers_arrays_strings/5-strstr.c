@@ -17,21 +17,23 @@ char *_strstr(char *haystack, char *needle)
 	{
 		return (haystack);
 	}
-	while (*haystack)
+	else
 	{
-		i = 0;
-
-		if (*(haystack + i) == *(needle + i))
+		while (*haystack)
 		{
-			if (*(needle + (i + 1)) == '\0')
-			{
-				return (haystack);
-			}
-			i++;
-		}
-	}
-	haystack++;
-}
+			i = 0;
 
-return ('\0');
+			if (*(haystack + i) == *(needle + i))
+			{
+				if (*(needle + (i + 1)) == '\0')
+				{
+					return (haystack);
+				}
+				i++;
+			}
+		}
+		haystack++;
+	}
+
+	return ('\0');
 }
