@@ -10,7 +10,6 @@ void print_chessboard(char (*a)[8])
 	int r, c;
 
 	r = 0;
-
 	while (a[r][7])
 	{
 		c = 0;
@@ -20,6 +19,7 @@ void print_chessboard(char (*a)[8])
 			_putchar(a[r][c]);
 			c++;
 		}
+
 		_putchar('\n');
 		r++;
 	}
