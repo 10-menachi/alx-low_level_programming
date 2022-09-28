@@ -17,7 +17,7 @@ int divisible(int div, int divs)
 		return (1);
 	}
 
-	return (divisible(div, divs - 1));
+	return (divisible(div, divs + 1));
 }
 
 /**
