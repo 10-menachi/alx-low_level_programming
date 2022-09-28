@@ -33,8 +33,8 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		n -= 1;
-		int the_fact = fact(n);
+		int the_fact = fact(n - 1);
+
 		if ((the_fact + 1) % n == 0)
 		{
 			return (1);
