@@ -18,7 +18,7 @@ int _sqrt(int sq, int tst)
 		return (-1);
 	}
 
-	return (_sqrt(sq, tst - 1));
+	return (_sqrt(sq, tst + 1));
 }
 
 /**
