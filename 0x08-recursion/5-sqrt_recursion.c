@@ -18,7 +18,7 @@ int _sqrt(int sq, int tst)
 		return (-1);
 	}
 
-	return (sqrt(sq, tst - 1));
+	return (_sqrt(sq, tst - 1));
 }
 
 /**
@@ -42,5 +42,5 @@ int _sqrt_recursion(int n)
 		return (-1);
 	}
 
-	return (sqrt(n, i));
+	return (_sqrt(n, i));
 }
