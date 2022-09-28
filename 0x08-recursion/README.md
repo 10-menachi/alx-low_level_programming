@@ -11,3 +11,6 @@
 
 ## 3-factorial.c
 #### returns the factorial of a number
+
+## 4-pow_recursion.c
+#### returns the value of x raised to the power of y
