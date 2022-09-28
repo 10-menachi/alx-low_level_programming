@@ -29,12 +29,12 @@ int is_prime_number(int n)
 {
 	if (n == 1)
 	{
-		return (0)
+		return (0);
 	}
 	else
 	{
 		n -= 1;
-		the_fact = fact(n);
+		int the_fact = fact(n);
 		if ((the_fact + 1) % n == 0)
 		{
 			return (1);
