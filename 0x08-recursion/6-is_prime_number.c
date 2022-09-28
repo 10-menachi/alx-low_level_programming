@@ -1,20 +1,23 @@
 #include "main.h"
 /**
- * fact - finds the factorial of a number
- * @num: the given number
+ * divisible - checks for divisibility
+ * @div: number to be checked
+ * @divs: divisor
  *
  * Return: factorial of the number
  */
-int fact(int num)
+int divisible(int div, int divs)
 {
-	if (num == 0)
+	if (div % divs == 0)
+	{
+		return (0);
+	}
+	if (divs == div / 2)
 	{
 		return (1);
 	}
-	else
-	{
-		return (num * fact(num - 1));
-	}
+
+	return (divisible(div, divs - 1));
 }
 
 /**
@@ -27,21 +30,16 @@ int fact(int num)
  */
 int is_prime_number(int n)
 {
-	if (n == 1)
+	int divs = 2;
+
+	if (n <= 1)
 	{
 		return (0);
 	}
-	else
+	if (n = 2 && n <= 3)
 	{
-		int the_fact = fact(n - 1);
-
-		if ((the_fact + 1) % n == 0)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
+
+	return (divisible(n, divs));
 }
