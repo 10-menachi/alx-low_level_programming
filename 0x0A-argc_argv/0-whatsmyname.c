@@ -2,9 +2,10 @@
 
 /**
  * main - Entry point
- * 
  * @argc: number of arguments
  * @argv: pointer to arguments array
+ *
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
