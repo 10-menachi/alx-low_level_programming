@@ -40,7 +40,7 @@ char *_strdup(char *str)
 			}
 			ptr[j] = '\0';
 
-			return (dup);
+			return (ptr);
 		}
 	}
 }
