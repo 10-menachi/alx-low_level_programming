@@ -5,3 +5,6 @@
 
 ## 1-strdup.c
 #### returns a pointer to a newly allocated space in memory
+
+## 2-str_concat.c
+#### concantenates two strings
