@@ -29,10 +29,12 @@ char *create_array(unsigned int size, char c)
 				ptrC[i] = c;
 				i++;
 			}
+			return (ptrC);
 		}
 		else
 		{
 			return (NULL);
 		}
 	}
+
 }
