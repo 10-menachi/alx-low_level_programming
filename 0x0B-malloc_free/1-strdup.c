@@ -35,6 +35,7 @@ char *_strdup(char *str)
 		}
 		else
 		{
+			i = 0;
 			while (str[i])
 			{
 				ptr[i] = str[i];
