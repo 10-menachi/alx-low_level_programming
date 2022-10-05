@@ -14,3 +14,6 @@
 
 ## 4-add.c
 #### adds positive numbers
+
+## 100-change.c
+#### prints minimum number of coins to make change for an amount of money
