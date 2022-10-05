@@ -5,3 +5,9 @@
 
 ## 1-args.c
 #### prints the number of arguments passed to it
+
+## 2-args.c
+#### prints all arguments it receives
+
+## 3-mul.c
+#### multiplies two numbers
