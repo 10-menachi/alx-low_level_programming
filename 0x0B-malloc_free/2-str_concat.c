@@ -53,7 +53,7 @@ char *str_concat(char *s1, char *s2)
 				s3[k++] = s2[i];
 				i++;
 			}
-			return (s3);
 		}
 	}
+	return (s3);
 }
