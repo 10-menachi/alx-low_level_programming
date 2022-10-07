@@ -8,3 +8,6 @@
 
 ## 2-calloc.c
 #### allocates memory for an array
+
+## 3-array_range.c
+#### creates an array of integers
