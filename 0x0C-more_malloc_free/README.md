@@ -5,3 +5,6 @@
 
 ## 1-string_nconcat.c
 #### concantenates two strings
+
+## 2-calloc.c
+#### allocates memory for an array
