@@ -14,3 +14,6 @@
 
 ## 100-realloc.c
 #### reallocates a memory block
+
+## 101-mul.c
+#### multiplies two positive numbers
