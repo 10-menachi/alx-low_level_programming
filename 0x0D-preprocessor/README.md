@@ -5,3 +5,6 @@
 
 ## 1-pi.h
 #### defines a macro named PI with value 3.14159265359
+
+## 2-main.c
+#### prints the name of the file it was compiled from
