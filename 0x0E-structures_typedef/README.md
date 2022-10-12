@@ -11,3 +11,6 @@
 
 ## dog.h
 #### defines dog_t as a new name for the type struct dog
+
+## 4-new_dog.c
+#### creates a new dog
