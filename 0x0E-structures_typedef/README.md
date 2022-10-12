@@ -14,3 +14,6 @@
 
 ## 4-new_dog.c
 #### creates a new dog
+
+## 5-free_dog.c
+#### frees dogs
