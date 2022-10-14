@@ -16,18 +16,21 @@ int sum_them_all(const unsigned int n, ...)
 	va_list add;
 
 	va_start(add, n);
-	if (i == 0)
+	if (n == 0)
 	{
 		return (0);
 	}
-	j = 0;
-	while (j < n)
+	else
 	{
-		i = va_arg(add, int);
-		sum += i;
-		j++;
-	}
-	va_end(add);
+		j = 0;
+		while (j < n)
+		{
+			i = va_arg(add, int);
+			sum += i;
+			j++;
+		}
+		va_end(add);
 
-	return (sum);
+		return (sum);
+	}
 }
