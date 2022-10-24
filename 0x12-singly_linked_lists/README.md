@@ -14,3 +14,6 @@
 
 ## 4-free_list.c
 #### frees a list_t list
+
+## 100-first.c
+#### prints a string before main function is executed
