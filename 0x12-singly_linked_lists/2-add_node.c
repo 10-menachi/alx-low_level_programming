@@ -9,11 +9,11 @@
  * Return: address of new element, NULL if process failed
  */
 
-list_t *add_node(list_t **head, const char str)
+list_t *add_node(list_t **head, const char *str)
 {
 	char *duplicate;
 	int len;
-	list_t new;
+	list_t *new;
 
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
