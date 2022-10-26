@@ -14,3 +14,6 @@
 
 ## 4-free_listint.c
 #### frees a listint_t list
+
+## 5-free_listint2.c
+#### frees a listint_t list and sets head to NULL
