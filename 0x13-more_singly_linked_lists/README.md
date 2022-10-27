@@ -29,3 +29,6 @@
 
 ## 9-insert_nodeint.c
 #### inserts a new node at a given position
+
+## 10-delete_nodeint.c
+#### deletes the node at a given index of a listint_t linked list
