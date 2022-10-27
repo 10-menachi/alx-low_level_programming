@@ -23,3 +23,6 @@
 
 ## 7-get_nodeint.c
 #### returns the nth node of a listint_t linked list
+
+## 8-sum_listint.c
+#### returns the sum of all data of a listint_t linked list
