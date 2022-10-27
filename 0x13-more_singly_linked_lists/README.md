@@ -17,3 +17,6 @@
 
 ## 5-free_listint2.c
 #### frees a listint_t list and sets head to NULL
+
+## 6-pop_listint.c
+#### deletes the head node of a listint_t linked list and returns the head node's data

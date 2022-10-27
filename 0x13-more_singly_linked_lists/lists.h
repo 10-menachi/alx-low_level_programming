@@ -1,6 +1,10 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include "stdio.h"
+#include "stdlib.h"
+#include "string.h"
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -23,5 +27,6 @@ listint_t *add_nodeint(listint_t **head, const int n);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 void free_listint2(listint_t **head);
+int pop_listint(listint_t **head);
 
 #endif
