@@ -10,4 +10,5 @@
 ### 7-print_tebahpla.c -> prints the lowercase alphabet in reverse
 ### 8-print_base16.c -> prints numbers of base 16 in lower case using the putchar function
 ### 9-print_comb.c -> prints all possible combinations of single digit numbers
-### 100-print_comb3.c -> prints all possible combinations of double digit numbers
+### 100-print_comb3.c -> prints all possible combinations of two digit numbers
+### 101-print_comb4.c -> prints all possible combinations of three digit numbers
