@@ -9,3 +9,4 @@
 ### 5-printf.c -> prints a string using printf function
 ### 6-size.c -> prints the size of various data types
 ### 100-intel -> generates the assembly code of a c file and saves it in an output file
+### 101-quote.c -> prints a string to standard error
