@@ -8,3 +8,6 @@ compiles a c file but does not link
 
 ### 2-assembler
 generates assembly code of a c file and saves it in an output file
+
+### 3-name
+compiles a c file and creates an executable named cisfun
