@@ -11,3 +11,7 @@ generates assembly code of a c file and saves it in an output file
 
 ### 3-name
 compiles a c file and creates an executable named cisfun
+
+### 4-puts.c
+prints exactly "Programming is like building a multilingual puzzle
+followed by a new line using puts
