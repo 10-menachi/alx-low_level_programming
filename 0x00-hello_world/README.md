@@ -23,3 +23,6 @@ followed by a new line using printf
 ### 6-size.c
 prints the size of various types on the computer it is compiled
 on
+
+### 100-intel
+generates assembly code of a c file and saves it in an output file
