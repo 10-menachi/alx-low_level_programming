@@ -19,3 +19,7 @@ followed by a new line
 ### 4-print_alphabt.c
 prints the alphabet in lowercase, except the letters
 q and e, followed by a new line
+
+### 5-print_numbers.c
+prints all single digit numbers of base 10 starting
+from 0, followed by a new line
