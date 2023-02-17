@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n;
-	char *start = "Last digit of ";
+	char *start = "Last digit of";
 	char *end;
 	int lastdigit;
 
