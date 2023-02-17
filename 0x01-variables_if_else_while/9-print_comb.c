@@ -20,4 +20,5 @@ int main(void)
 			putchar(32);
 		}
 	}
+	return (0);
 }
