@@ -15,3 +15,7 @@ prints the alphabet in lowercase, followed by a new line
 ### 3-print_alphabets.c
 prints the alphabet in lowercase then in uppercase,
 followed by a new line
+
+### 4-print_alphabt.c
+prints the alphabet in lowercase, except the letters
+q and e, followed by a new line
