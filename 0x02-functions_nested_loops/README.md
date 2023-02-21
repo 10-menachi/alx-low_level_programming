@@ -16,10 +16,16 @@ contains a function that prints 10 times the
 alphabet, followed by a new line
 
 ### 3-islower.c
-checks if a character is in lower case
+contains a function that checks if a
+character is in lower case
 
 ### 4-isalpha.c
-checks if a character is alphabetic
+contains a function that checks if a
+character is alphabetic
 
 ### 5-sign.c
-prints the sign of a number
+contains a function that prints the sign
+of a number
+
+### 6-abs.c
+contains a function that computes the absolute value of an integer
