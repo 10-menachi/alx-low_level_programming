@@ -20,3 +20,6 @@ checks if a character is in lower case
 
 ### 4-isalpha.c
 checks if a character is alphabetic
+
+### 5-sign.c
+prints the sign of a number
