@@ -13,6 +13,7 @@
 int _islower(int c)
 {
 	int ch;
+
 	for (ch = 97; ch < 123; ch++)
 	{
 		if (ch == c)
