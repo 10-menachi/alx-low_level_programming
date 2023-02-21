@@ -14,3 +14,6 @@ in lowercase, followed by a new line
 ### 2-print_alphabet_x10.c
 contains a function that prints 10 times the
 alphabet, followed by a new line
+
+### 3-islower.c
+checks if a character is in lower case
