@@ -17,3 +17,6 @@ alphabet, followed by a new line
 
 ### 3-islower.c
 checks if a character is in lower case
+
+### 4-isalpha.c
+checks if a character is alphabetic
