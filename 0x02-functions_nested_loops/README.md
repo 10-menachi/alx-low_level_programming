@@ -43,3 +43,6 @@ to 23.59
 ### 9-times_table.c
 contains a function that prints the nine times
 table, starting with 0
+
+### 10-add.c
+contains a function that adds two integers
