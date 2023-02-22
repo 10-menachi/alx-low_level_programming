@@ -39,3 +39,7 @@ of a number
 contains a function that prints every minute
 of the day of Jack Bauer, starting from 00.00
 to 23.59
+
+### 9-times_table.c
+contains a function that prints the nine times
+table, starting with 0
