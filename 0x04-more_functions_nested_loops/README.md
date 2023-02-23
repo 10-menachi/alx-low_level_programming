@@ -10,3 +10,7 @@ a digit
 
 ### 2-mul.c
 contains a function that multiplies 2 integers
+
+### 3-print_numbers.c
+contains a function that prints numbers from
+0 to 9
