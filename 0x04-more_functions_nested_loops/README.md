@@ -23,3 +23,7 @@ from 0 to 9 apart from 2 and 4
 ### 5-more_numbers.c
 contains a function that prints numbers
 from 0 to 14 10 times
+
+### 6-print_line.c
+contains a function that prints a straight
+line
