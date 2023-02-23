@@ -7,3 +7,6 @@ an uppercase character
 ### 1-isdigit.c
 contains a function that checks for
 a digit
+
+### 2-mul.c
+contains a function that multiplies 2 integers
