@@ -13,3 +13,7 @@ debugging an infinite loop
 ### 2-largest_number.c
 prints the largest of three
 numbers
+
+### 3-print_remaining_days.c
+checks how many days are left
+in the year
