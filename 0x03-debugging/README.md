@@ -9,3 +9,7 @@ function
 
 ### 1-main.c
 debugging an infinite loop
+
+### 2-largest_number.c
+prints the largest of three
+numbers
