@@ -27,3 +27,6 @@ from 0 to 14 10 times
 ### 6-print_line.c
 contains a function that prints a straight
 line
+
+### 7-print_diagonal.c
+draws a diagonal line on the terminal
