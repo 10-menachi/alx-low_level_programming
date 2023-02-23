@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - prints a straight line
+ * print_diagonal - prints a straight line
  * @n: length of the line
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
         int ch, chh;
 
