@@ -4,4 +4,8 @@
 contains all function prototypes
 
 ### 0-main.c
-testing
+tests the positive_or_negative()
+function
+
+### 1-main.c
+debugging an infinite loop
