@@ -10,14 +10,23 @@
 
 int largest_number(int a, int b, int c)
 {
-	int i, largest;
-	int arr[3] = {a, b, c};
+	int largest;
 
-	for (i = 0; i < 3; i++)
+	if ((a > b) && (a > c))
 	{
-		if (arr[i] > largest)
-			largest = arr[i];
+		largest = a;
 	}
-
+	else if ((b > a) && (b > c))
+	{
+		largest = b;
+	}
+	else if (a == b)
+	{
+		largest = a;
+	}
+	else
+	{
+		largest = c;
+	}
 	return (largest);
 }
