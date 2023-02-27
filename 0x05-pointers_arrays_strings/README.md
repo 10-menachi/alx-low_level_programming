@@ -30,3 +30,7 @@ string
 
 ### 6-puts2.c
 contains a function that prints a string
+
+### 7-puts_half.c
+contains a function that prints half of
+a string
