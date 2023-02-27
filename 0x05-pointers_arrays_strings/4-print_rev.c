@@ -8,9 +8,9 @@
 
 void print_rev(char *s)
 {
-	while (*str)
-		*str++;
-	while (*str)
-		_putchar(*str++);
+	while (*s)
+		*s++;
+	while (*s)
+		_putchar(*s++);
 	_putchar(10);
 }
