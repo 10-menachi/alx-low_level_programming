@@ -38,4 +38,5 @@ void print_rev(char *s)
 			len++
 		}
 	}
+	_putchar(10);
 }
