@@ -11,3 +11,7 @@ value it points to to 98
 ### 1-swap.c
 contains a function that swaps the values
 of two integers
+
+### 2-strlen.c
+contains a function that returns the length
+of a string
