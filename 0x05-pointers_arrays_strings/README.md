@@ -15,3 +15,7 @@ of two integers
 ### 2-strlen.c
 contains a function that returns the length
 of a string
+
+### 3-puts.c
+contains a function that prints a string
+followed by a new line
