@@ -32,11 +32,8 @@ void print_rev(char *s)
 
 	while ((len) >= 0)
 	{
-		if (*(str + len) != '\0')
-		{
-			_putchar(*(str + len));
-			len++
-		}
+		_putchar(*(str + len));
+		len++
 	}
 	_putchar(10);
 }
