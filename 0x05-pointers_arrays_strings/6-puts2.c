@@ -8,15 +8,6 @@
 
 void puts2(char *str)
 {
-	int i = 0;
-
-	while (*str++)
-	{
-		if (i % 2 == 0)
-		{
-			_putchar(*(str + i));
-		}
-		i++;
-	}
+	_putchar(*(str + 0));
 	_putchar(10);
 }
