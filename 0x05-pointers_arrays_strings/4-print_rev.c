@@ -35,5 +35,4 @@ void print_rev(char *s)
 		_putchar(*(s + len));
 		len--;
 	}
-	_putchar(10);
 }
