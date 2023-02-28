@@ -34,3 +34,7 @@ contains a function that prints a string
 ### 7-puts_half.c
 contains a function that prints half of
 a string
+
+### 8-print_array.c
+contains a function that prints n elements
+of a given array
