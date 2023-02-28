@@ -14,9 +14,10 @@ void print_array(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		printf("%i", *(a + i));
-		if (i == n - 1 || n == 1)
-			printf("\n");
+		if (i == n - 1)
+			continue;
 		else
 			printf(", ");
 	}
+	_putchar(10);
 }
