@@ -6,5 +6,9 @@ two string
 
 ### 1-strncat.c
 contains a function that concatenates
-two strings but only up to n bites of the
-second string
+two strings but only up to n bites of
+the second string
+
+### 2-strncpy.c
+contains a function that copies a
+string
