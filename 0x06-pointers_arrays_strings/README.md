@@ -2,4 +2,9 @@
 
 ### 0-strcat.c
 contains a function that concatenates
-two strings
+two string
+
+### 1-strncat.c
+contains a function that concatenates
+two strings but only up to n bites of the
+second string
