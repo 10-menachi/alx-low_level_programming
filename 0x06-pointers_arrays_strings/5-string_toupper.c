@@ -10,7 +10,7 @@
 
 char *string_toupper(char *st)
 {
-	char *ts;
+	char *ts = "";
 	int i = 0;
 
 	while (*st)
