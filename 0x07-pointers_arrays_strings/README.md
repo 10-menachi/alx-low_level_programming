@@ -11,3 +11,7 @@ with a constant byte
 ### 1-memcpy.c
 contains a function that copies memory
 area
+
+### 2-strchr.c
+contains a function that checks for a
+character in a string
