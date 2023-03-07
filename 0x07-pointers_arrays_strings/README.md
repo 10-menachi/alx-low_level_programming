@@ -15,3 +15,7 @@ area
 ### 2-strchr.c
 contains a function that checks for a
 character in a string
+
+### 3-strspn.c
+contains a function that gets the length
+of a prefix substring
