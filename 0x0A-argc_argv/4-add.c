@@ -1,23 +1,30 @@
 #include "main.h"
 
 /**
- * main - entry point
- * @argc: argument count
- * @argv: arguments array
+ * main - Adds positive numbers.
  *
- * Return: 1 if variables are not numbers,
- * 0 otherwise
+ * @argc: Number of arguments passed.
+ * @argv: Array of pointers to arguments.
+ *
+ * Return: Always 0.
  */
-
 int main(int argc, char *argv[])
 {
-	if (argc != 3)
-		printf("0\n");
-	if (!isdigit(argv[1]) || !isdigit(argv[2]))
+	int i, j, sum = 0;
+
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; argv[i][j]; j++)
+		{
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", atoi(argv[1] + atoi(argv[2]);
+
+	printf("%d\n", sum);
 	return (0);
 }
