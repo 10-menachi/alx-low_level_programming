@@ -10,14 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	char *str = argv[0];
-
-	while (*(str + i))
-	{
-		_putchar(*(str + i));
-		i++;
-	}
-	_putchar(10);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
 	return (0);
 }
