@@ -10,18 +10,15 @@
 
 char *string_toupper(char *st)
 {
-	char *ts = "";
 	int i = 0;
 
-	while (*st)
+	while (*(a + i))
 	{
-		if (*st >= 'a' && *st <= 'z')
-			*(ts + i) = *st - 32;
-		else
-			*(ts + i) = *st;
-		st++;
+		if (*(a + i) >= 'a' && *(a + i) <= 'z')
+		{
+			*(a + i) -= 32;
+		}
 		i++;
 	}
-
-	return (ts);
+	return (a);
 }
