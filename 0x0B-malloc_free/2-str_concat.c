@@ -20,7 +20,7 @@ char *str_concat(char *s1, char *s2)
 		size1++;
 	for (j = 0; s2[j]; j++)
 		size2++;
-	sizecat = size1 + size2
+	sizecat = size1 + size2;
 	cat = malloc(sizeof(char) * (sizecat + 1));
 
 	if (cat == NULL)
