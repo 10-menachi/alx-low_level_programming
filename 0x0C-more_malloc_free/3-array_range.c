@@ -10,16 +10,15 @@
 
 int *array_range(int min, int max)
 {
-	void *ptr;
 	int size = (max - min) + 1;
 	int *arr, index = min;
 
 	if (min > max)
 		return (NULL);
 
-	ptr = calloc(size, sizeof(int) * size);
+	arr = calloc(sizeof(int), size);
 
-	if (!ptr)
+	if (!arr)
 		return (NULL);
 
 	while (index <= max)
