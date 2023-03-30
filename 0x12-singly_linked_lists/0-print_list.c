@@ -9,11 +9,11 @@
 
 size_t print_list(const list_t *h)
 {
-	int elements = 0;
+	size_t elements = 0;
 
 	while (h != NULL)
 	{
-		printf("%s", h->str);
+		printf("%s\n", h->str);
 		h = h->next;
 		elements++;
 	}
