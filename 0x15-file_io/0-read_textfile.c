@@ -11,16 +11,40 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char buffer[letters];
+	char *buffer;
 	ssize_t numbers;
+	int fd;
+
+	buffer = malloc(letters);
+	fd = open(filename, O_RDONLY);
+
+	if (fd == -1)
+		return (-1);
+
+	if (!buffer)
+	{
+		close(fd);
+		return (-1);
+	}
 
 	if (!filename)
 		return (0);
 
-	numbers = read(filename, buffer, letters);
-	buffer[letters] = '\0';
+	numbers = read(fd, buffer, letters);
+
+	if (numbers == -1)
+	{
+		free(buffer);
+		close(fd);
+		perror("read");
+		exit(EXIT_FAILURE);
+	}
+	buffer[numbers] = '\0';
 
 	write(STDOUT_FILENO, buffer, letters);
+
+	free(buffer);
+	close(fd);
 
 	return (numbers);
 }
