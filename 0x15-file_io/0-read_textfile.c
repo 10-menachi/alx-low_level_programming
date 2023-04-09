@@ -17,34 +17,26 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buffer = malloc(letters);
 	fd = open(filename, O_RDONLY);
-
 	if (fd == -1)
 		return (-1);
-
 	if (!buffer)
 	{
 		close(fd);
 		return (-1);
 	}
-
 	if (!filename)
 		return (0);
-
 	numbers = read(fd, buffer, letters);
-
 	if (numbers == -1)
 	{
 		free(buffer);
 		close(fd);
-		perror("read");
+		perror("Error Reading File");
 		exit(EXIT_FAILURE);
 	}
 	buffer[numbers] = '\0';
-
-	write(STDOUT_FILENO, buffer, letters);
-
+	write(STDOUT_FILENO, buffer, numbers);
 	free(buffer);
 	close(fd);
-
 	return (numbers);
 }
