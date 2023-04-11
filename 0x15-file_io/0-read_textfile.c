@@ -18,11 +18,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buffer = malloc(letters);
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
-		return (-1);
+		return (0);
 	if (!buffer)
 	{
 		close(fd);
-		return (-1);
+		return (0);
 	}
 	if (!filename)
 		return (0);
