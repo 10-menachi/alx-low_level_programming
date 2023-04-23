@@ -10,25 +10,21 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, len;
-	ssize_t bytes;
-	char *lastchar;
+	int fd, wr, len = 0;
 
 	if (!filename)
 		return (-1);
-	if (!text_content)
-		text_content = "";
-	lastchar = text_content + strlen(text_content) - 1;
-	while (lastchar >= text_content && isspace(*lastchar))
-		lastchar--;
-	*(lastchar + 1) = '\0';
-	fd = open(filename, O_CREAT | O_RDWR, 0600);
-	if (fd == -1)
-		return (-1);
-	len = strlen(text_content);
-	bytes = write(fd, text_content, len);
-	if (bytes == -1 || bytes != len)
-		return (-1);
+	if (text_content)
+	{
+		for (len = 0; *(text_content + len);)
+			len++;
+	}
 
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	wr = write(fd, text_content, len);
+
+	if (fd == -1 || wr == -1)
+		return (-1);
+	close(fd);
 	return (1);
 }
