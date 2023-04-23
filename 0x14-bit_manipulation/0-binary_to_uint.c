@@ -26,7 +26,7 @@ int str_len(const char *str)
  *
  * Return: x raised to power y.
  */
-int pow(int x, int y)
+int my_pow(int x, int y)
 {
 	int p = 0;
 
@@ -59,7 +59,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		d += (*(b + len) - '0') * pow(2, index);
+		d += (*(b + len) - '0') * my_pow(2, index);
 		index++;
 	}
 	return (d);
