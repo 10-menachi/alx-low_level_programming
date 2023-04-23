@@ -32,7 +32,7 @@ int my_pow(int x, int y)
 
 	if (y == 0)
 		return (1);
-	p = x * pow(x, y - 1);
+	p = x * my_pow(x, y - 1);
 	return (p);
 }
 
