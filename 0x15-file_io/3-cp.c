@@ -82,8 +82,7 @@ void close_des(int fd)
 	c = close(fd);
 	if (c == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close file
-				descriptor %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close file descriptor %d\n", fd);
 		exit(100);
 	}
 }
