@@ -49,7 +49,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int len = str_len(b);
 	unsigned int d = 0, index = 0;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
 
 	while (len > 0)
