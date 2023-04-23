@@ -20,7 +20,7 @@ int str_len(const char *str)
 }
 
 /**
- * pow - Finds Power @y of @x.
+ * my_pow - Finds Power @y of @x.
  * @x: Base number.
  * @y: Exponent.
  *
@@ -46,11 +46,12 @@ int my_pow(int x, int y)
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int len = str_len(b);
+	unsigned int len;
 	unsigned int d = 0, index = 0;
 
 	if (!b)
 		return (0);
+	len = str_len(b);
 
 	while (len > 0)
 	{
