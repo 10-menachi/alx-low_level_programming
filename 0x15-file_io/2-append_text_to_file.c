@@ -10,18 +10,17 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int result;
-	FILE *fptr;
+	int fd, wr, len = 0;
 
-	if (!filename || !text_content)
+	if (!filename)
 		return (-1);
-
-	fptr = fopen(filename, "a");
-	if (!fptr)
+	if (text_content)
+		for (len = 0; *(text_content + len);)
+			len++;
+	fd = open(filename, O_WRONLY | O_APPEND);
+	wr = write(fd, text_content, len);
+	if (fd == -1 || wr == -1)
 		return (-1);
-	result = fputs(text_content, fptr);
-	fclose(fptr);
-	if (result == EOF)
-		return (-1);
+	close(fd);
 	return (1);
 }
