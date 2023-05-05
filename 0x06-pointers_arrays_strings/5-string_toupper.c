@@ -12,13 +12,13 @@ char *string_toupper(char *st)
 {
 	int i = 0;
 
-	while (*(a + i))
+	while (*(st + i))
 	{
-		if (*(a + i) >= 'a' && *(a + i) <= 'z')
+		if (*(st + i) >= 'a' && *(st + i) <= 'z')
 		{
-			*(a + i) -= 32;
+			*(st + i) -= 32;
 		}
 		i++;
 	}
-	return (a);
+	return (st);
 }
