@@ -3,7 +3,7 @@
 /**
  * add_dnodeint - adds a node at the beginning of a linked list
  * @head: pointer to the head of a linked list
- * n: data of the node
+ * @n: data of the node
  *
  * Return: head of the linked list, NULL if process fails
  */
