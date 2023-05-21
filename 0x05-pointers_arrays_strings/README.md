@@ -1,6 +1,6 @@
 # 0x05-pointers_arrays_strings
 
-## Purpose:
+## Objecties:
 
 > To be able to explain the following:
 >
