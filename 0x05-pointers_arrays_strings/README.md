@@ -141,3 +141,9 @@ of a given array
 - [Pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
 - [Strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
 - [Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
+
+## Additional Resources:
+
+- [Understanding Pointers](https://www.youtube.com/watch?v=vp6dlzFL1AA)
+- [Pointers and Arrays](https://www.youtube.com/watch?v=5BpYD7TxvAg)
+- [Strings] (https://www.youtube.com/watch?v=3Z2nEHZ9TgU)
