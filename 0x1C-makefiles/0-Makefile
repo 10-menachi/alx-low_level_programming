@@ -1,4 +1,4 @@
 OBJECTS = main.c school.c
 
-all:main.c school.c
+all:$(OBJECTS)
 	gcc $(OBJECTS) -o school
