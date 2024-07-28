@@ -7,12 +7,12 @@
 
 void hash_table_print(const hash_table_t *ht)
 {
-	if (!ht)
-		return;
-
 	hash_node_t *node;
 	int first = 1;
 	unsigned long int i;
+
+	if (!ht)
+		return;
 
 	printf("{");
 
